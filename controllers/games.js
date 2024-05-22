@@ -6,10 +6,10 @@ const sendAllGames = async (req, res) => {
 };
 
 const sendUpdatedGames = async (req, res) => {
-    res.send({
-        games: req.games,
-        updated: req.game
-    });
+  res.send({
+    games: req.games,
+    updated: req.updatedObject,
+  });
 };
 
 
